@@ -1,9 +1,25 @@
 # Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+### Health
+GET http://127.0.0.1:8000/health
 Accept: application/json
-###
 
-GET http://127.0.0.1:8000/hello/User
+### List Excel files (optional ?q=)
+GET http://127.0.0.1:8000/drive/files
 Accept: application/json
-###
+
+### Get file size by id
+GET http://127.0.0.1:8000/drive/files/{{file_id}}
+Accept: application/json
+
+### Read table rows (first two columns)
+GET http://127.0.0.1:8000/table/read?file_id={{file_id}}&sheet_name=
+Accept: application/json
+
+### Read a cell value
+GET http://127.0.0.1:8000/table/cell?file_id={{file_id}}&cell=A1&sheet_name=
+Accept: application/json
+
+### Ask QA based on table
+POST http://127.0.0.1:8000/qa/ask?file_id={{file_id}}&question=Объясни инструмент, название которого находится в (A1)
+Accept: application/json

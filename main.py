@@ -1,6 +1,4 @@
-from fastapi import FastAPI
-
-app = FastAPI()
+from app.main import app  # re-export for uvicorn
 
 
 @app.get("/")
