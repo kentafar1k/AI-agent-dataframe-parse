@@ -18,3 +18,7 @@ async def get_file(file_id: str):
 	if content is None:
 		raise HTTPException(status_code=404, detail="File not found or not accessible")
 	return {"file_id": file_id, "size_bytes": len(content)}
+
+
+
+

@@ -28,3 +28,7 @@ async def read_cell(file_id: str, cell: str, sheet_name: Optional[str] = None):
 		raise HTTPException(status_code=404, detail="File not found")
 	except Exception as exc:
 		raise HTTPException(status_code=400, detail=str(exc))
+
+
+
+

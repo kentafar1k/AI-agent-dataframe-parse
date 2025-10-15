@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1cae85-334a-4dc6-82f5-f2ab016e0217" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/drive.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/drive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/health.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/health.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/qa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/gdrive.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/gdrive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/qa_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/qa_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/table_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/table_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,39 +37,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kentafar1k"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kentafar1k&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kentafar1k/AI-agent-dataframe-parse.git",
-    "accountId": "1936cc11-563b-4346-8b74-b0310a6fa8c1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kentafar1k/AI-agent-dataframe-parse.git&quot;,
+    &quot;accountId&quot;: &quot;1936cc11-563b-4346-8b74-b0310a6fa8c1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="33jio5oeVWfBWFCcSJQ0tfYH7Je" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/programming/ai_agent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ai_agent" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
@@ -91,7 +104,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759837054100</updated>
-      <workItem from="1759837055505" duration="909000" />
+      <workItem from="1759837055505" duration="935000" />
+      <workItem from="1759842151392" duration="21000" />
+      <workItem from="1760376713886" duration="1472000" />
     </task>
     <servers />
   </component>

@@ -41,3 +41,7 @@ async def answer_question_from_table(file_id: str, question: str, sheet_name: Op
 		"Не удалось однозначно определить инструмент из вопроса. "
 		"Уточните название. Примеры из таблицы: " + preview
 	)
+
+
+
+

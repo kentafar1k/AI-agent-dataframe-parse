@@ -27,3 +27,7 @@ services:
 
 volumes:
   openwebui_data:
+
+
+
+

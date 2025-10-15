@@ -50,3 +50,7 @@ async def read_cell_from_gdrive(file_id: str, cell: str, sheet_name: Optional[st
 		return None if pd.isna(value) else value
 	except Exception:
 		return None
+
+
+
+
