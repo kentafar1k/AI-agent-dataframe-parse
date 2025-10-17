@@ -1,15 +1,15 @@
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Depends
 from typing import Optional
 
-from app.services.table_reader import read_table_from_gdrive, read_cell_from_gdrive
+from app.services.table_reader import TableReader, provide_table_reader
 
 router = APIRouter()
 
 
 @router.get("/read")
-async def read_table(file_id: str, sheet_name: Optional[str] = None):
+async def read_table(file_id: str, sheet_name: Optional[str] = None, reader: TableReader = Depends(provide_table_reader)):
 	try:
-		rows = await read_table_from_gdrive(file_id=file_id, sheet_name=sheet_name)
+		rows = await reader.read_table(file_id=file_id, sheet_name=sheet_name)
 		return {"rows": rows}
 	except FileNotFoundError:
 		raise HTTPException(status_code=404, detail="File not found")
@@ -18,9 +18,9 @@ async def read_table(file_id: str, sheet_name: Optional[str] = None):
 
 
 @router.get("/cell")
-async def read_cell(file_id: str, cell: str, sheet_name: Optional[str] = None):
+async def read_cell(file_id: str, cell: str, sheet_name: Optional[str] = None, reader: TableReader = Depends(provide_table_reader)):
 	try:
-		value = await read_cell_from_gdrive(file_id=file_id, cell=cell, sheet_name=sheet_name)
+		value = await reader.read_cell(file_id=file_id, cell=cell, sheet_name=sheet_name)
 		if value is None:
 			raise HTTPException(status_code=404, detail="Cell not found or empty")
 		return {"cell": cell, "value": value}

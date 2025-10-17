@@ -17,9 +17,6 @@
       <change beforePath="$PROJECT_DIR$/app/services/qa_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/qa_agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/table_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/table_reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +104,8 @@
       <workItem from="1759837055505" duration="935000" />
       <workItem from="1759842151392" duration="21000" />
       <workItem from="1760376713886" duration="1472000" />
+      <workItem from="1760542647584" duration="4241000" />
+      <workItem from="1760697871445" duration="47000" />
     </task>
     <servers />
   </component>
